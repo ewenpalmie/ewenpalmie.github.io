@@ -1,0 +1,41 @@
+.modalOpen {
+    backdrop-filter: blur(5px);
+    background-color: #01223770;
+}
+
+.modalDraw {
+    width: 90vw;
+    height: 70vh;
+    background-color: white;
+    z-index: 1000000;
+    border-radius: 4vh;
+    position: absolute;
+    opacity: 1 !important;
+}
+
+.modalHeader {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-align: start;
+    align-items: flex-start;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    padding: 1rem;
+    border-bottom: 1px solid #e9ecef;
+    border-top-left-radius: .3rem;
+    border-top-right-radius: .3rem;
+}
+
+.modalFooter {
+    bottom: 0;
+    position: absolute;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+    text-align: center;
+}
+
+#mainDraw {
+    padding-top: 25vh;
+}
