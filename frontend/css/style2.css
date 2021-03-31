@@ -657,8 +657,10 @@ header.active {
     padding: 0px;
 }
 
-#btnLogin {
-    margin: 0 20px 0 0;
+@media only screen and (min-width: 991px) {
+    #btnLogin {
+        margin: 0 20px 0 0;
+    }
 }
 
 #pictureIndex {
