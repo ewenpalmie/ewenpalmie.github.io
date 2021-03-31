@@ -17,7 +17,7 @@
     function FolderFx(el) {
         this.DOM = {};
         this.DOM.el = el;
-
+        console.log(this.DOM.el.querySelector('.folder__icon'))
         this.DOM.wrapper = this.DOM.el.querySelector('.folder__icon');
         this.DOM.back = this.DOM.wrapper.querySelector('.folder__icon-img--back');
         this.DOM.cover = this.DOM.wrapper.querySelector('.folder__icon-img--cover');

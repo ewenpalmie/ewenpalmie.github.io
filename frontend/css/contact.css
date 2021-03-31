@@ -159,10 +159,9 @@ section {
 #myAlert {
     color: white;
     position: relative;
-    background-color: red;
     text-align: center;
     border-radius: 10px;
-    background-image: linear-gradient(to right, var(--hoverA) 0%, #e3a6ee 51%, #b10180 100%);
+    background-image: linear-gradient(to right, #ffca0082 0%, #ff8d00 51%, #ff0000a6 100%);
     display: none;
     margin-top: 20px;
 }

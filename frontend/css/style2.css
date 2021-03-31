@@ -883,6 +883,7 @@ body {
     border-radius: 10px;
     background-image: linear-gradient(to right, #2d0ddc 0%, #d28cdf 51%, #71cffa 100%);
     display: block;
+    opacity: 80%;
 }
 
 header {
