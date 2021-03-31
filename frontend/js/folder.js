@@ -172,6 +172,7 @@
     };
 
     RaviFx.prototype._reorder = function(arr) {
+        console.log(arr)
         let newArray = [],
             i = Math.ceil(arr.length / 2),
             j = i - 1;

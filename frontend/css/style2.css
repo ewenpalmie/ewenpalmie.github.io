@@ -212,8 +212,8 @@ header.nav-fixed .navbar-brand img {
 *===================================*/
 
 #home {
+    height: 100vh;
     padding-top: 10em;
-    height: 80vh;
     position: relative;
     background-color: var(--footer);
 }

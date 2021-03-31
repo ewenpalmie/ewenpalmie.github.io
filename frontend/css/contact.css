@@ -164,8 +164,7 @@ section {
     border-radius: 10px;
     background-image: linear-gradient(to right, var(--hoverA) 0%, #e3a6ee 51%, #b10180 100%);
     display: none;
-    margin-bottom: 20px;
-
+    margin-top: 20px;
 }
 
 #c {
