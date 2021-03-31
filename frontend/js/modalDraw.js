@@ -96,5 +96,6 @@ function myModal(theme) {
             });
             break;
     }
-    $("#modalCarouselTitle").append(" " + repository);
+    $("#modalCarouselTitle").empty();
+    $("#modalCarouselTitle").append(repository);
 }
