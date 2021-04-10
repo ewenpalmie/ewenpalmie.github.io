@@ -120,6 +120,6 @@ function bigImg(picture) {
     let urlPicture = picture.getAttribute('src');
     urlPicture = urlPicture.substring(1);
     let urlCurrent = window.location.origin
-    console.log(urlCurrent+urlPicture)
-    window.open(urlCurrent + urlPicture, "_blank")
+    console.log(urlCurrent+"/"+urlPicture)
+    window.open(urlCurrent + "/"+urlPicture, "_blank")
 }
