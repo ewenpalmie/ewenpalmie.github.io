@@ -27,7 +27,7 @@ function myModal(theme) {
     let Photoshop = ["Bob.png", "Dr stone.png", "FINI AIZAWA.png", "Fissure.png", "Jujustsu.png", "KIRITO.png", "koro fini.png", "LIVAI.png", "Mirio.png", "Obito fini.png", "RATATOUILLE.png", "RIN.png", "Solo leveling.png", "Star Wars.png", "STITCH.png", "ZENITSU.png", "ZORO.png"];
     let Stage = ["Assiette Perso.png", "Borderie 1 .png", "Borderie 2 .png", "Borderie 3 .png", "Borderie 4 .png", "Boule.png", "croquis.png", "maison pâques.png", "origami.png", "Présentation Marchande 1 .png", "Présentation plante 1 .png", "Présentation plante 2.png", "sapin.png", "Traineau.png"];
 
-
+    let CreationsManuelHist = ["Mon frere est le meilleur"];
     let DigitalHist = "Mes dessins digitaux ont été réalisés sur une tablette graphique« Xp - Pen Artist 12 pro».Les logiciels utilisés sont Medibang ainsi que Photoshop. La plupart sont des réalisations que j 'avais déjà dessinées en papier sous forme de croquis et enfin après les avoir pris en photo les refaire, afin d'améliorer en corrigeant les défauts et en y mettant des couleurs.";
     let FeutreAlcoolHist = "Après avoir fait une grande partie de mes dessins aux crayons à papier, je me suis intéressé à la mise en couleur de ceux - là et au rendu avec des feutres traditionnels pour les aplats de couleurs. Pour faire la mise en couleurs de mes dessins aux feutres, je dessine tout d’ abord le croquis sur un papier avec un grain entre 75 et 90 gammes pour que l’ encre ne passe pas à travers ou au contraire soit totalement absorbée.Une fois ceci fait je repasse avec différents feutres« Micron pigma» noir avec une pointe entre 0.5 et 5 mm pour jouer sur les différentes textures.Dès lors je peux gommer mon croquis et appliquer la couleur en pensant bien à repasser plusieurs fois dessus pour avoir un bel aplat de couleur.";
     let NoirBlancHist = "Les dessins en noir et blanc sont des dessins réalisés avec des« micron pigma» avec une pointe en entre 0.5 et 5 mm d’ épaisseur ainsi qu’ une pointe - type brush. Après avoir fait de l’ encrage de mes traits internes et externes du dessin je peux utiliser diverses techniques afin de créer des ombrages en faisant des hachures plus il y en a qui sont superposés plus sombres(l’ on peut aussi les superposer pour les avoir plus sombres ou en faisant des aplats de noir.";
@@ -48,7 +48,7 @@ function myModal(theme) {
             break;
         case "CreationsManuel":
             repository = "Creations Manuel";
-            hist = "";
+            hist = CreationsManuelHist;
             carousel.empty();
             CreationsManuel.forEach(draw => {
                 carousel.append('<li> <img  onclick="bigImg(this)" src="./img/draw/' + repository + '/' + draw + '" /></li>');
