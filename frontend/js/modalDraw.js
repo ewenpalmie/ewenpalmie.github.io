@@ -118,15 +118,11 @@ console.log($(".wrap>ul>li>img"))
 
 function bigImg(picture) {
     let urlPicture = picture.getAttribute('src');
-    urlPicture = urlPicture.substring(1);
+    urlPicture = urlPicture.substring(2);
 
+    let urlCurrent = window.location.origin;
 
-    let urlCurrent = window.location.origin
-    let urlPlaceFrontend = str.indexOf("/img/");
-    startUrl = substring(0,urlPlaceFrontend);
-    endUrl = substring(urlPlaceFrontend, urlCurrent.length);
-    console.log(startUrl,endUrl)
 
     //console.log(urlCurrent+"/"+urlPicture)
-    window.open(urlCurrent + "/"+urlPicture, "_blank")
+    window.open(urlCurrent + "/frontend/"+urlPicture, "_blank")
 }
