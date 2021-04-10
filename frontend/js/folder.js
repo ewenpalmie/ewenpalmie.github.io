@@ -17,7 +17,6 @@
     function FolderFx(el) {
         this.DOM = {};
         this.DOM.el = el;
-        console.log(this.DOM.el.querySelector('.folder__icon'))
         this.DOM.wrapper = this.DOM.el.querySelector('.folder__icon');
         this.DOM.back = this.DOM.wrapper.querySelector('.folder__icon-img--back');
         this.DOM.cover = this.DOM.wrapper.querySelector('.folder__icon-img--cover');
@@ -172,7 +171,6 @@
     };
 
     RaviFx.prototype._reorder = function(arr) {
-        console.log(arr)
         let newArray = [],
             i = Math.ceil(arr.length / 2),
             j = i - 1;

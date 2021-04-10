@@ -16,7 +16,7 @@
     --colorBeautifull: #9e7b9b;
     --butonAdd: #2D3047;
     --fontButton: #f2f5f7;
-    --hoverA: #ff0037;
+    --hoverA: #007bff;
     --font-family: Open Sans, Whitney, Helvetica Neue, Helvetica, Arial, sans-serif;
 }
 
@@ -169,6 +169,8 @@ header {
 .navbar .navbar-brand img {
     max-width: 100px;
     transition: all 0.5s ease;
+    border-radius: 60%;
+    margin-right: 15px;
 }
 
 .navbar-expand-lg .navbar-nav .nav-item {
@@ -212,7 +214,7 @@ header.nav-fixed .navbar-brand img {
 *===================================*/
 
 #home {
-    padding-top: 10em;
+    padding-top: 8.7em;
     position: relative;
     background-color: var(--footer);
 }

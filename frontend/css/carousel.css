@@ -107,6 +107,7 @@
     position: relative;
     z-index: 1;
     transition: 1s ease;
+    cursor: zoom-in;
 }
 
 body {
