@@ -19,13 +19,13 @@ function myModal(theme) {
     } else {
         modal.hide();
     }
-    let Crayon = ["ALL-mights.png", "Bleach.png", "Broly.png", "Comics1.png", "Croquis.png", "ELFES.png", "Guerrier 1.png", "Guerrier 2.png", "Iron-spider.png", "Joker.png", "Naruto.png", "Panther.png", "Rabbit.png", "Solo leveling.png", "Sukuna.png", "Volt.png", "Wolverine.png"];
+    let Crayon = [ "Batman crayon.jpg", "spider man crayon.jpg", "Lion crayon.jpg", "Kylo ren crayon.jpg", "crayon personnage.jpg","ALL-mights.png", "dauphin crayob.jpg", "Broly.png", "Bleach.png", "Comics1.png", "Croquis.png", "ELFES.png", "Guerrier 1.png", "Guerrier 2.png", "Iron-spider.png", "Joker.png", "Naruto.png", "Panther.png", "Rabbit.png", "Solo leveling.png", "Sukuna.png", "Volt.png", "Wolverine.png"];
     let CreationsManuel = ["Among US 1.png", "Among US 2.png"];
-    let Digital = ["Ecolière.png", "Hypnose.png", "Spider-Gwen.png"];
-    let FeutreAlcool = ["Banana.png", "Boruto.png", "Broly.png", "Buu.png", "Dabi.png", "DBZ.png", "Ecolier.png", "Gangsta.png", "IM.png", "Kakashi.png", "Kirito.png", "Lakers.png", "Luffy.png", "Méliodas.png", "Momoshiki.png", "RABBIT'S.png", "Ratatouille.png", "Sanji.png", "Shoto 1.png", "Shoto 2.png", "SNK.png", "Spider-man 1.png", "Spider-man 2.png", "Spider-man 3.png", "Star Lord.png", "The promised Neverland.png", "Venom.png", "Win.png", "Zoro.png"];
-    let NoiretBlanc = ["Bleach.jpg", "Fight.png", "Garoh.png", "Kirito line.png", "Naruto.png", "Pirates.png", "Sun ken rock.png"];
-    let Photoshop = ["Bob.png", "Dr stone.png", "FINI AIZAWA.png", "Fissure.png", "Jujustsu.png", "KIRITO.png", "koro fini.png", "LIVAI.png", "Mirio.png", "Obito fini.png", "RATATOUILLE.png", "RIN.png", "Solo leveling.png", "Star Wars.png", "STITCH.png", "ZENITSU.png", "ZORO.png"];
-    let Stage = ["Assiette Perso.png", "Borderie 1 .png", "Borderie 2 .png", "Borderie 3 .png", "Borderie 4 .png", "Boule.png", "croquis.png", "maison pâques.png", "origami.png", "Présentation Marchande 1 .png", "Présentation plante 1 .png", "Présentation plante 2.png", "sapin.png", "Traineau.png"];
+    let Digital = [ "crabeeee.png","Ecolière.png", "rat.png", "Hypnose.png", "Spider-Gwen.png"];
+    let FeutreAlcool = [ "Banana.png", "shoto feutre.jpg", "Momoshiki.png", "love feutre.jpg", "kiri feutre.jpg", "Boruto.png", "Broly.png", "Buu.png", "Dabi.png", "DBZ.png", "Ecolier.png", "Gangsta.png", "IM.png", "Kakashi.png", "Kirito.png", "Lakers.png","Zoro.png", "Luffy.png", "Sanji.png", "Méliodas.png", "RABBIT'S.png", "Ratatouille.png",, "Shoto 1.png", "Shoto 2.png", "SNK.png", "Spider-man 1.png", "Spider-man 2.png", "Spider-man 3.png", "Star Lord.png", "The promised Neverland.png", "Venom.png", "Win.png", ];
+    let NoiretBlanc = ["Bleach.jpg","Sun ken rock.png", "Fight.png", "Garoh.png", "Kirito line.png", "Naruto.png", "Pirates.png",];
+    let Photoshop = ["Bob.png", "Obito fini.png", "Star Wars.png", "RATATOUILLE.png", "Fissure.png", "Dr stone.png", "FINI AIZAWA.png", "Jujustsu.png", "KIRITO.png", "koro fini.png", "LIVAI.png", "Mirio.png", "RIN.png", "Solo leveling.png", "STITCH.png", "ZENITSU.png", "ZORO.png"];
+    let Stage = [, "Borderie 1 .png", "Borderie 2 .png", "Borderie 3 .png", "Borderie 4 .png", "origami.png", "sapin.png", "Traineau.png", "Boule.png", "croquis.png","Assiette Perso.png", "maison pâques.png", "Présentation Marchande 1 .png", "Présentation plante 1 .png", "Présentation plante 2.png",];
 
     let CreationsManuelHist = ["Mon frere est le meilleur"];
     let DigitalHist = "Mes dessins digitaux ont été réalisés sur une tablette graphique« Xp - Pen Artist 12 pro».Les logiciels utilisés sont Medibang ainsi que Photoshop. La plupart sont des réalisations que j 'avais déjà dessinées en papier sous forme de croquis et enfin après les avoir pris en photo les refaire, afin d'améliorer en corrigeant les défauts et en y mettant des couleurs.";
