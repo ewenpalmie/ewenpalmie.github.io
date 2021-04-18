@@ -118,7 +118,7 @@
             targets: this.DOM.cover,
             duration: 400,
             easing: 'easeOutExpo',
-            rotateX: [0, -30]
+            rotateX: [0, -60]
         });
     };
 

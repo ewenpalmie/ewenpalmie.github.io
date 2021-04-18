@@ -156,6 +156,8 @@ a:focus {
 }
 
 .grid {
+    margin-top: 5%;
+    margin-bottom: 50px;
     display: flex;
     flex-wrap: wrap;
     align-content: center;
@@ -234,10 +236,10 @@ a:focus {
 }
 
 .folder__icon-svg--deco {
-    color: #76767f;
+    font-size: 50px;
     width: var(--folder-deco-width);
     height: var(--folder-deco-width);
-    top: 50%;
+    top: 60%;
     left: 50%;
     margin: calc( (var(--folder-deco-width) / -2) + var(--folder-slip-height) / 2) 0 0 calc(var(--folder-deco-width) / -2);
 }
@@ -459,7 +461,7 @@ a:focus {
 }
 
 .folder--ardra .folder__icon-img--back {
-    color: #234e91;
+    color: #16315b;
 }
 
 
