@@ -20,19 +20,19 @@ function myModal(theme) {
         modal.hide();
     }
     let Crayon = ["Batman crayon.jpg", "spider man crayon.jpg", "Lion crayon.jpg", "Kylo ren crayon.jpg", "crayon personnage.jpg", "ALL-mights.png", "dauphin crayob.jpg", "Broly.png", "Bleach.png", "Comics1.png", "Croquis.png", "ELFES.png", "Guerrier 1.png", "Guerrier 2.png", "Iron-spider.png", "Joker.png", "Naruto.png", "Panther.png", "Rabbit.png", "Solo leveling.png", "Sukuna.png", "Volt.png", "Wolverine.png"];
-    let CreationsManuel = ["Among US 1.png", "Among US 2.png"];
+    let CreationsManuelles = ["Among US 1.png", "Among US 2.png"];
     let Digital = ["crabeeee.png", "Ecolière.png", "rat.png", "Hypnose.png", "Spider-Gwen.png"];
     let FeutreAlcool = ["Banana.png", "shoto feutre.jpg", "Momoshiki.png", "love feutre.jpg", "kiri feutre.jpg", "Boruto.png", "Broly.png", "Buu.png", "Dabi.png", "DBZ.png", "Ecolier.png", "Gangsta.png", "IM.png", "Kakashi.png", "Kirito.png", "Lakers.png", "Zoro.png", "Luffy.png", "Sanji.png", "Méliodas.png", "RABBIT'S.png", "Ratatouille.png", , "Shoto 1.png", "Shoto 2.png", "SNK.png", "Spider-man 1.png", "Spider-man 2.png", "Spider-man 3.png", "Star Lord.png", "The promised Neverland.png", "Venom.png", "Win.png", ];
     let NoiretBlanc = ["Bleach.jpg", "Sun ken rock.png", "Fight.png", "Garoh.png", "Kirito line.png", "Naruto.png", "Pirates.png", ];
     let Photoshop = ["Bob.png", "Obito fini.png", "Star Wars.png", "RATATOUILLE.png", "Fissure.png", "Dr stone.png", "FINI AIZAWA.png", "Jujustsu.png", "KIRITO.png", "koro fini.png", "LIVAI.png", "Mirio.png", "RIN.png", "Solo leveling.png", "STITCH.png", "ZENITSU.png", "ZORO.png"];
     let Stage = [, "Borderie 1 .png", "Borderie 2 .png", "Borderie 3 .png", "Borderie 4 .png", "origami.png", "sapin.png", "Traineau.png", "Boule.png", "croquis.png", "Assiette Perso.png", "maison pâques.png", "Présentation Marchande 1 .png", "Présentation plante 1 .png", "Présentation plante 2.png", ];
 
-    let CreationsManuelHist = "";
-    let DigitalHist = "Mes dessins digitaux ont été réalisés sur une tablette graphique « Xp - Pen Artist 12 pro». Les logiciels utilisés sont Medibang ainsi que Photoshop. La plupart sont des réalisations que j'avais déjà dessinées en papier sous forme de croquis et   après les avoir pris en photo les refaire, afin d'améliorer en corrigeant les défauts et en y mettant des couleurs.";
-    let NoirBlancHist = "Les dessins en noir et blanc sont des dessins        réalisés avec des« micron pigma» avec une pointe en entre 0.5 et 5 mm d’ épaisseur ainsi qu’ une pointe - type brush. Après avoir effectué de l’encrage de  mes traits internes et externes du dessin, je peux utiliser diverses          techniques afin de créer des ombrages en faisant des hachures : on peut les   superposer pour les avoir plus sombres ou en faisant des aplats de noir.";
-    let MontagePhotoHist = "Les montages exécutés sont composés de plusieurs  types, de collage d' image ou des effets donnés à des personnages en superposant des calques ou des mises en scène. Il ne suffit pas de seulement coller des images aléatoires pour mes fonds collage. Je fais en sorte de mettre en valeur les émotions fortes telles que la peur,  la colère, la joie et des moments clés dans l' évolution du personnage en lui - même.";
-    let CrayonHist = "J’ai commencé à dessiner par le crayon en utilisant des papiers de couleur différents, des épaisseurs différentes et des crayons plus ou moins gras du HB au 6 B. Afin d’ adoucir les traits, j'utilise aussi une estompe pour créer des nuancesclaires.";
-    let StageHist = "Voici des réalisations / présentations marchandes exécutées durant mes périodes de stage chez« Vanessa Bruno» une entreprise de prêt à porter, chez «Truffaut» une entreprise étant dans la vente de plantes, d 'animaux de compagnie et d'agroalimentaire et pour finir le dernier chez « Cultura», une entreprise qui vend, des livres, des instruments de musique, des films, des jeux vidéo des consoles, des fournitures scolaires, des jeux pour enfants,ainsi que du matériel en lien avec l 'art et le loisir  créatif. J'y ai développé des techniques de positionnement de produits, de la décoration, de la peinture et des fonctionnements d'entreprise et des compétences requises pour y travailler.";
+    let CreationsManuellesHist = "";
+    let DigitalHist = "Mes dessins digitaux ont été réalisés sur une tablette graphique « Xp - Pen Artist 12 pro». Les logiciels utilisés sont Medibang ainsi que Photoshop. La plupart sont des réalisations que j'avais déjà dessinées en papier sous forme de croquis. Après les avoir pris en photo je les ai repris et appliqués sur tablette, afin de corriger les défauts et de rajouter des couleurs.";
+    let NoirBlancHist = "Les dessins en noir et blanc sont des dessins réalisés avec des« micron pigma» avec une pointe en entre 0.5 et 5 mm d’ épaisseur ainsi qu’ une pointe - type brush. Après avoir effectué de l’encrage de  mes traits internes et externes du dessin, je peux utiliser diverses d' afin de créer des ombrages en faisant des hachures : on peut les   superposer pour les avoir plus sombres ou en faisant des aplats de noir.";
+    let MontagePhotoHist = "Les montages exécutés sont composés de plusieurs types, de collage d'image ou des effets donnés à des personnages en superposant des calques ou des mises en scène. Il ne suffit pas de seulement coller des images aléatoires pour mes fonds collage. Je fais en sorte de mettre en valeur les émotions fortes telles que la peur,  la colère, la joie et des moments clés dans l' évolution du personnage en lui-même.";
+    let CrayonHist = "J’ai commencé à dessiner par le crayon en utilisant des papiers de couleur différents, des épaisseurs différentes et des crayons plus ou moins gras du HB au 6 B. Afin d’ adoucir les traits, j'utilise aussi une estompe pour créer des nuances claires.";
+    let StageHist = "Voici des réalisations / présentations marchandes exécutées durant mes périodes de stage chez <b>«Vanessa Bruno»</b> une entreprise de prêt à porter, chez <b>«Truffaut»</b> une entreprise étant dans la vente de plantes, d'animaux de compagnie et d'agroalimentaire et pour finir le dernier chez <b>«Cultura»</b>, une entreprise qui vend, des livres, des instruments de musique, des films, des jeux vidéo des consoles, des fournitures scolaires, des jeux pour enfants,ainsi que du matériel en lien avec l 'art et le loisir  créatif. J'y ai développé des techniques de positionnement de produits, de la décoration, de la peinture. J'ai développé des compétences: travail en équipe, autonomie, techniques de merch, argumentaire de vente et aisance auprès des clients.";
 
     hist = "";
     switch (theme) {
@@ -45,11 +45,11 @@ function myModal(theme) {
             });
 
             break;
-        case "CreationsManuel":
-            repository = "Creations Manuel";
-            hist = CreationsManuelHist;
+        case "CreationsManuelles":
+            repository = "Creations Manuelles";
+            hist = CreationsManuellesHist;
             carousel.empty();
-            CreationsManuel.forEach(draw => {
+            CreationsManuelles.forEach(draw => {
                 carousel.append('<li> <img  onclick="bigImg(this)" src="./img/draw/' + repository + '/' + draw + '" /></li>');
             });
             break;
