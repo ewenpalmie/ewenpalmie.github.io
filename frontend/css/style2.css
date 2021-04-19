@@ -124,23 +124,27 @@ a:hover {
 
 .section-title {
     font-weight: bold;
-    font-size: 2em;
     margin-bottom: 1.2em;
     padding-bottom: 0.6em;
     position: relative;
     text-align: center;
 }
 
+.section-rapport {
+    font-size: 2em;
+}
+
 .section-title::before {
-    background-color: #fff;
+    background: linear-gradient(to right, #00dcff 0%, #e3a6ee 51%, #b10180 80%);
     margin: 0 auto;
     bottom: 0;
     content: "";
-    height: 2px;
+    height: 3px;
     left: 0;
+    border-radius: 20px;
     position: absolute;
     right: 0;
-    width: 80px;
+    width: 80%;
     box-sizing: border-box;
 }
 
@@ -258,16 +262,18 @@ header.nav-fixed .navbar-brand img {
 *===================================*/
 
 .box-wrap {
-    background: #202225;
+    background: #151618;
     margin-top: 30px;
     padding: 20px 15px;
     transition: all 0.5s ease 0s;
+    border-radius: 8px;
 }
 
 .box-wrap img {
-    max-width: 55px;
+    max-width: 100px;
     display: block;
     margin: 0 auto;
+    border-radius: 3px;
 }
 
 .box-wrap h4 {
@@ -278,8 +284,10 @@ header.nav-fixed .navbar-brand img {
 }
 
 .box-wrap p {
+    font-size: 0.8rem;
+    line-height: 1rem;
     margin: 0;
-    text-align: center;
+    text-align: left;
 }
 
 
@@ -482,6 +490,10 @@ header.nav-fixed .navbar-brand img {
 /* -------------------------------------------------
   max-width: 991px
 ---------------------------------------------------*/
+
+.fixed-top {
+    z-index: 10;
+}
 
 @media only screen and (max-width: 991px) {
     #site-header {
@@ -896,4 +908,15 @@ header {
 
 .social>a>svg {
     margin-top: 5;
+}
+
+.btn-rapport {
+    margin: 10px;
+}
+
+#services {
+    background-image: url("../img/star.gif");
+    opacity: 0.8;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
 }
