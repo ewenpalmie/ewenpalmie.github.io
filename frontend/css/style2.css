@@ -920,3 +920,18 @@ header {
     background-repeat: no-repeat;
     background-size: 100% 100%;
 }
+
+#pictureIndex>h5 {
+    font-size: 1.1rem;
+    display: inline;
+    font-family: 'Times New Roman', Times, serif
+}
+
+.bio-citation {
+    background: linear-gradient(to right, #7b64fc 0%, #d28cdf 51%, #71cffa 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-weight: 1000;
+    font-style: italic;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
